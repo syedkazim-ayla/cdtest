@@ -1,5 +1,6 @@
-from calc import add
+from calc import Calc
 
 def test_add():
-  result=add(1,2)
+  calc=Calc()
+  result=calc.add(1,2)
   assert result==3
