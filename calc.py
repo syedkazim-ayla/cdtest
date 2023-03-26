@@ -1,4 +1,4 @@
-class Calc
+class Calc:
   def add(a,b):
     return a+b
   def subtract(a,b):
