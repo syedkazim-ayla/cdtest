@@ -1,4 +1,5 @@
-import Calc
+import calc
 
 def test_add():
-  pass
+  result=calc.add(1,2)
+  assert result==3
